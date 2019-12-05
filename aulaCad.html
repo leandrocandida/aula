@@ -1,0 +1,31 @@
+<html>
+<meta charset="utf-8">
+<title>Aula de PHP</title>
+<h2>programação php com banco de dados </h2>
+<p> 
+<style type= "text/css">
+	body{ background-color:#ff5733;
+		font:14px/1.4 tahoma,sans-serif;
+		color:#ffffff;
+	}
+</style>
+<body>
+	<form method="post" action="class.cursos.php">
+		<fieldset>
+		<legend>  CADASTRO DE CURSOS </legend>
+		<div> Código do curso:        <input type="text" name="codigo"value="" >         </div> <br>
+		<div> Nome do curso:          <input type="text" name="nome" value="">             </div> <br>
+		<div> Carga horária do curso: <input type= "text" name="cargaHoraria" value=""> horas </div> <br>
+		<div>Curso Extra ?:
+		<select name="cursoExtra">
+			<option value="">Selecione...</option>
+    		<option value="SIM">SIM</option>
+    		<option value="NÃO">NÃO</option>
+        </select>
+        </div><br />
+		<div> <input type= "submit" name="opcao" value="incluir">                       
+		</div>
+		</fieldset>
+</form>
+</body>
+</html>
